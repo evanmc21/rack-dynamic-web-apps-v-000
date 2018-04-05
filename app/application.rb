@@ -9,7 +9,7 @@ class Application
 
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
-    resp.write "#{num_3}\n"
+    resp.write "#{num_3}\n" #The \ns are just a special character which gets rendered by the browser as a new line.
 
     if num_1==num_2 && num_2==num_3
         resp.write "You Win"
